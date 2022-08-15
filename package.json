@@ -1,0 +1,19 @@
+{
+  "name": "moleculer_magento2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pwastack/moleculer_magento2.git",
+  "author": "Le Tuan <tuan.maxviet@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/dev"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "moleculer": "^0.14.22",
+    "moleculer-repl": "^0.7.2",
+    "moleculer-web": "^0.10.4",
+    "node-fetch": "^3.2.10",
+    "qs": "^6.11.0"
+  }
+}

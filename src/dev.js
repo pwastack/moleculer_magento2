@@ -14,4 +14,7 @@ const broker = new ServiceBroker({
 
 
 broker.loadServices("module","*/services/**/*.service.js");
-broker.start().catch(e => console.log(e.message));
+broker.start().then(() => {
+    // Switch to REPL mode
+    broker.repl();
+}).catch(e => console.log(e.message));
